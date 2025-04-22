@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ badge.title }}</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Badge Details</h1>
+        <div class="badge-detail">
+            <img src="/static/images/{{ badge_name }}.png" alt="{{ badge.title }}">
+            <h2>{{ badge.title }}</h2>
+            <p>{{ badge.description }}</p>
+        </div>
+    </div>
+    <script src="/static/js/badges.js"></script>
+</body>
+</html>
