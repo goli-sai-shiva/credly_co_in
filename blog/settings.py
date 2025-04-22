@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-nyem#9y=l8ar7v!bsnx6*es17^l0qs$=kf_6o0g@#qfvrrk5#i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://credly-co-in.onrender.com', 'www.credly.co.in']
+ALLOWED_HOSTS = ['credly-co-in.onrender.com', 'www.credly.co.in']
 
 
 # Application definition
